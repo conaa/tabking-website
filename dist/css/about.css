@@ -1,0 +1,23 @@
+.lnd-about-wrap {
+
+    height:150px;
+    background:rgba(120,137,145,0.6);
+}
+.about-inner-hd {
+    margin-top:3em;
+}
+.about-inner-hd h1 {
+    color:grey;
+}
+.brd-nav {
+    margin-top:-1.5em;
+    height:50px;
+    background:#f5f5f5;
+}
+.breadcrumb {
+    padding-top:2em;
+    background:#f5f5f5;
+}
+.breadcrumb a.act {
+    color:gray;
+}
