@@ -53,14 +53,14 @@ z-index:999999;
 }
 .ph-btn {
     padding:5px 10px;
-  background: #f46b45;
+  background: #2c3e50;
     color:#fff!important;
     border-radius: 2px;
     font-size:20px;
 }
 .ph-btn:hover {
     opacity:.9!important;
-     background:#f46b45!important;
+     background:#34495e!important;
     cursor:pointer;
 }
 .button {
