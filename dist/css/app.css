@@ -307,11 +307,11 @@ cursor: pointer;
     z-index:1;
    
 
-   padding-bottom:9em;
+   padding-bottom:13em;
     padding-top:2em;
     width:100%;
 display:table;
-    background:#111;
+    background:#333;
 
 }
 .mkt {
@@ -327,9 +327,9 @@ display:table;
 .mkt p {
      font-family:'Open Sans';
     font-weight: 300;
-text-align: justify;
- font-size:13px;
-    color:#999;
+text-align: center;
+ font-size:16px;
+    color:#ccc;
     margin-bottom:2em;
     height:70px;
 }
