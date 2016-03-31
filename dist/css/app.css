@@ -580,7 +580,7 @@ background:#fff;
     font-size:24px; 
 }
 .pricing-hdr h3, .compare h3 {
- color:#194c6e;
+ color:black;
     font-weight:100;
     font-size:18px;
       font-family:'Open Sans';
@@ -693,7 +693,7 @@ max-width:100%;
 .pricing-sub {
     font-size:12px;
     font-weight:100;
-    color:#194c6e;
+    color:#333;
     line-height: 2em;
 }
 .segment {
