@@ -25,7 +25,9 @@ body {
 height:85px;   
 background:#333;
 z-index:999999;
-
+-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
 
 
 }
@@ -50,11 +52,11 @@ z-index:999999;
     
 }
 .ph-btn {
-    padding:10px 20px;
-    background:#f46b45;
-    color:white!important;
+    padding:5px 10px;
+  background: #f46b45;
+    color:#fff!important;
     border-radius: 2px;
-    font-size:26px;
+    font-size:20px;
 }
 .ph-btn:hover {
     opacity:.9!important;
@@ -190,7 +192,7 @@ z-index:999999;
   -o-background-size: cover;
   background-size: cover;
  height:650px;  
-margin-top:6em;
+
     
 }
 
@@ -304,26 +306,30 @@ cursor: pointer;
 .marketing-pts {
     z-index:1;
    
- height:430px; 
+
+   padding-bottom:9em;
+    padding-top:2em;
     width:100%;
 display:table;
-    background:#333;
+    background:#111;
 
 }
 .mkt {
  text-align: center;
 }
 .mkt h2 {
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
  font-size:1.2em;   
     font-weight: 700;
-    color:#fff;
+    color:#ccc;
 }
 .mkt p {
      font-family:'Open Sans';
     font-weight: 300;
-text-align: center;
- font-size:16px;
-    color:#ccc;
+text-align: justify;
+ font-size:13px;
+    color:#999;
     margin-bottom:2em;
     height:70px;
 }
@@ -521,7 +527,7 @@ margin: 0 auto;
 }
 /*PRICING POINTS SECTION*/
 .pricing-wrapper {
-background:#2980b9;
+background:#fff;
     height:780px;
    
     
@@ -566,7 +572,7 @@ background:#2980b9;
     margin-top:2em;
 }
 .pricing-hdr h1 {
-    color:#fff!important;
+    color:#333!important;
     font-size:24px;
 }
 .compare h1 {
@@ -679,7 +685,7 @@ max-width:100%;
     color:#194c6e;
 }
 .pricing-hd {
-    color:#fff;
+    color:#333;
     font-size:16px;
     font-weight:100;
 }
@@ -878,6 +884,10 @@ display:block;
 	padding-bottom:2em;
 }
 .top-banner {
+    -webkit-box-shadow: 0px -2px 4px 0px rgba(0,0,0,0.3) inset;
+-moz-box-shadow: 0px -2px 4px 0px rgba(0,0,0,.3) inset;
+box-shadow: 0px -2px 4px 0px rgba(0,0,0,.3) inset;
+        
     padding:2em 1em;
     
 
