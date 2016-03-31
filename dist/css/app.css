@@ -364,14 +364,14 @@ animation-delay: 0.9s;
 .lrn-more{
     margin:0 auto;
     padding:10px 50px!important;   
-    border-color: #fb783f !important;
-    background-color: #fb783f;
+    border-color: #2c3e50 !important;
+    background-color:#2c3e50 ;
     color:#fff!important;
     
 }
 .lrn-more:hover {
-background-color:#ea723e!important;
-    border-color:#ea723e !important;
+background-color:#34495e!important;
+    border-color: #34495e!important;
 
 
 }
