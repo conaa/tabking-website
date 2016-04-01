@@ -430,23 +430,28 @@ text-align: center;
 background-color:#333; 
 color: white;
 font-size:25px;
+   
 
 
     
 }
-
+.inner-expanded-hdr ul{
+	color:#333;
+}
 .inner-expanded-hdr{
 background-color: white;
 
 }
 .inner-expanded-hdr h1 {
+     font-family: 'Open Sans';
+    font-weight: 100;
     color:dimgray;
-    font-size:24px;
+    font-size:20px;
 }
 .inner-expanded-hdr h2 {
  color:dimgray;
     font-weight:100;
-    font-size:18px;
+    font-size:14px;
      font-family:'Open Sans';
 }
 .btn {
