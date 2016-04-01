@@ -423,12 +423,14 @@ z-index:1;
 }    
     
 .inner-expanded-hdrr{
-   padding-top:2em;
-padding-bottom:3em;
- text-align: center; 
+   padding-top:1.5em;
+padding-bottom:1.5em;
+text-align: center;
 background-color:#333; 
 color: white;
 font-size:25px;
+
+
     
 }
 
@@ -929,6 +931,7 @@ background: linear-gradient(to left, #2980b9 , #194c6e); /* W3C, IE 10+/ Edge, F
 .ph-tem {
     position: relative;
     left:100%;
+
     
  
 }
