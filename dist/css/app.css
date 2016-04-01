@@ -47,7 +47,7 @@ z-index:999999;
 }
 .tking-nav-items {
    margin-top:15px;
-   margin-left:20em;
+   margin-left:0em;
   /*ul code here*/  
     
 }
@@ -67,6 +67,9 @@ z-index:999999;
     padding:10px 20px;
     background:#333;
     color:white;
+}
+#ph-num {
+    margin-left:20em;
 }
 .tking-nav-items li a h4 {
     
