@@ -84,7 +84,7 @@ z-index:999999;
     background:none!important;
 }
 .tking-nav li:hover a h4{
-   color:#222;
+   color:#2980b9;
 }
 .tking-nav-white li:hover a{
    color:#444;
@@ -783,7 +783,7 @@ display:block;
 }
 .footer-nav li a{
     color:grey;
-    font-size:10px;
+    font-size:16px;
     transition: 0.2s;
 }
 .footer-nav li {
