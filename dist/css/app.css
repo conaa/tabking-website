@@ -70,14 +70,14 @@ z-index:999999;
     color:white;
 }
 #ph-num {
-    margin-left:15em;
+    margin-left:12em;
 }
 .tking-nav-items li a h4 {
     
     margin:0 15px;
     color:white;
     font-weight:bold;
-    font-size:16px;
+    font-size:12px;
         transition: 0.2s;
     
 }
