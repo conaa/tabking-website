@@ -423,9 +423,9 @@ z-index:1;
     }
 }    
     
-.inner-expanded-hdrr{
-   padding-top:1.5em;
-padding-bottom:1.5em;
+.inner-expanded-hdr{
+text-align:center;
+    margin:4em 0;
 text-align: center;
 background-color:#333; 
 color: white;

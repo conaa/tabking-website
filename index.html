@@ -36,7 +36,7 @@
 <body>
 
     <div id="top" class="tking-nav animated fadeInTop fixed">
-        <div class="container cont-nav-top">
+        <div class="container cont-nav-top container">
             <div class="navbar-header">
 
             </div>
@@ -44,7 +44,7 @@
                 <img class="nav-img-logo" src="dist/img/mtns.png" alt="Tab King Mountains">
                 <ul class="tking-nav-items nav navbar-nav">
                     
-                    <li><a class="active" href="#"><h4>HOME</h4></a></li>
+                    <li><a class="active" href="template.html"><h4>HOME</h4></a></li>
                     <li><a href="#mkt-1"><h4>ABOUT</h4></a></li>
                     <li><a href="#contact"><h4>CONTACT</h4></a></li>
                     
@@ -94,18 +94,35 @@
     
      
 
-        <div class="tabking-diagram-hardware">
-            <div class="diagram-content">
+        <div class="tabking-diagram-hardware row">
+           <div class="container">
+               
+          
+            <div class="diagram-content col-md-6">
                 <p><img class="diagram-image animated fadeInDown" src="dist/img/diagram.png" alt="Tab King Pull Tab Point of Sale"></p>
-                
+                </div>
+                <div class=" col-md-6">
                 <div class="inner-expanded-hdr">
+                
             <h1>GET THE SETUP YOU NEED, FOR THE RESULTS YOU DESIRE</h1>
             <h2>Get the highest quality industry standard hardware, tied together with Tab King's elegant, and easy to use software</h2>
         </div>
                 
                 
-            </div>
-
+             </div>
+                      <div class=" col-md-6">
+                <div class="inner-expanded-hdr">
+                
+            <h1>GET THE SETUP YOU NEED, FOR THE RESULTS YOU DESIRE</h1>
+            <h2>Get the highest quality industry standard hardware, tied together with Tab King's elegant, and easy to use software</h2>
+        </div>
+                
+                
+             </div>
+            <div class="diagram-content col-md-6">
+                <p><img class="diagram-image animated fadeInDown" src="dist/img/diagram.png" alt="Tab King Pull Tab Point of Sale"></p>
+                </div>
+       
         </div>
 
 
@@ -160,7 +177,7 @@
 
                </div>
             </div>
-                 <div class="like-what-see">
+                 <div id="like-what-see"class="like-what-see">
                          <h3>Like what you see so far?</h3>
                           <span><img src="dist/img/Big_Smartphone_24.png" alt="Call Tab King Today">907 561 6161</span>
                             <span><img src="dist/img/Closed_Envelope_24.png" alt="Tab King Email">sales@tabkingusa.com</span>
@@ -400,6 +417,7 @@
 <script>
   $(document).ready(function(){
     $("#top").sticky({topSpacing:0.1});
+      $("#like-what-see").sticky({topSpacing:20});
   });
 </script>
 </body>
