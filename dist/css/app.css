@@ -366,7 +366,7 @@ animation-delay: 0.9s;
 }
 .lrn-more{
     margin:0 auto;
-    padding:10px 50px!important;   
+    padding:12px 50px!important;   
     border-color: #2980b9 !important;
     background-color: #2980b9;
     color:#fff!important;
@@ -653,6 +653,9 @@ position:relative;
     margin-bottom:2em;
     
 }
+
+    
+
 .get-started-hd span{
     display:block;
     margin-bottom: 2em;
@@ -836,7 +839,7 @@ display:block;
     color:#666;
     border: 3px #ccc solid;
     border-radius: 3px;
-    font-size:11px;
+    font-size:16px;
     font-weight:100;
     text-transform: uppercase;
         transition: 0.1s;
