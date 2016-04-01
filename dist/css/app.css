@@ -425,7 +425,8 @@ z-index:1;
     
 .inner-expanded-hdr{
 text-align:center;
-    margin:4em 0;
+    position: relative;
+    top:7.2em;
 text-align: center;
 background-color:#333; 
 color: white;
@@ -434,6 +435,10 @@ font-size:25px;
 
 
     
+}
+.tko-btn{
+position: relative;
+    top:2em;
 }
 .inner-expanded-hdr ul{
 	color:#333;
