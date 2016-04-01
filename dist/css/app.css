@@ -638,6 +638,9 @@ position:relative;
 .get-strd-content {
     z-index: 9999;
 }
+.get-strd-content h3 {
+    padding-bottom:1em;
+}
 .get-started-hd a {
     z-index: 9999 !important;
 }
