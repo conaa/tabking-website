@@ -87,6 +87,7 @@ z-index:999999;
 }
 .tking-nav li:hover a h4{
    color:#2980b9;
+    border-bottom: 2px solid #2980b9;
 }
 .tking-nav-white li:hover a{
    color:#444;
