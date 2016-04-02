@@ -437,6 +437,10 @@ font-size:25px;
 
     
 }
+.pull-up {
+   position: relative;
+    top:-7em;
+}
 .tko-btn{
 position: relative;
     top:2em;
@@ -729,9 +733,14 @@ max-width:100%;
 .tabking-diagram-hardware {
     
 }
+.cta-btn-cont {
+    position: relative;
+    top:-6em;
+    text-align: center;
+}
 .diagram-content{
 text-align:center;
-    margin:3em 0;
+   margin-top:5em;
     
 }
 .diagram-content p{
