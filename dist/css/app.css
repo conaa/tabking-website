@@ -454,14 +454,14 @@ background-color: white;
 }
 .inner-expanded-hdr h1 {
      font-family: 'Open Sans';
-    font-weight: 100;
-    color:#111;
-    font-size:21px;
+    font-weight:bold;
+    color:#000000;
+    font-size:24px;
 }
 .inner-expanded-hdr h2 {
- color:#222;
-    font-weight:100;
-    font-size:15px;
+ color:#000000;
+    font-weight:500;
+    font-size:16px;
      font-family:'Open Sans';
 }
 .btn {
