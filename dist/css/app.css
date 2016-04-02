@@ -87,7 +87,6 @@ z-index:999999;
 }
 .tking-nav li:hover a h4{
    color:#2980b9;
-    border-bottom: 2px solid #2980b9;
 }
 .tking-nav-white li:hover a{
    color:#444;
@@ -428,7 +427,7 @@ z-index:1;
 .inner-expanded-hdr{
 text-align:center;
     position: relative;
-    top:7.2em;
+    top:6em;
 text-align: center;
 background-color:#333; 
 color: white;
