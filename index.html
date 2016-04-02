@@ -20,7 +20,6 @@
     <meta name="keywords" content="POS,Point of Sales,PullTab,PullTabs,Pull Tab,Pull Tabs,Pull-Tab,Pull-Tabs,Bingo,Gaming,Bar,Restaurant,Rippie,Rippies,Tab Wizard">
     <link rel="shortcut icon" href="favicon.ico">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
     <title>Tab King | Bar and pull tab point of sales</title>
 
     <!-- Bootstrap core CSS -->
@@ -48,7 +47,7 @@
                     <li><a class="active" href="#landing-con"><h4>HOME</h4></a></li>
                     <li><a href="#mkt-1"><h4>ABOUT</h4></a></li>
                        
-                    <li><a data-toggle="modal" data-target="#cm" href="#"><h4>CONTACT</h4></a></li>
+                    <li><a data-toggle="modal" data-target="#contactModal" href="#"><h4>CONTACT</h4></a></li>
                     
                     
                     <li><a><h4>sales@tabkingusa.com</h4></a></li>
@@ -358,10 +357,10 @@
                 <div class="col-md-4">
                     <ul class="footer-nav">
                         <li><img src="dist/img/tabkinglogo.png" alt="Tab King Logo"></li>
-                        <li><a>Home</a> &#9679;</li>
-                        <li><a>About Tab King</a> &#9679;</li>
-                        <li><a>Contact</a></li>
-                        <br><li><a>sales@tabkingusa.com</a></li>
+                        <li><a href="#landing-con">Home</a> &#9679;</li>
+                        <li><a href="#mkt-1">About Tab King</a> &#9679;</li>
+                        <li><a data-toggle="modal" data-target="#contactModal">Contact</a></li>
+                        <br><li><a href="mailto:sales@tabkingusa.com">sales@tabkingusa.com</a></li>
                         <br><li><a data-toggle="modal" data-target="#contactModal">907 561 6161 Office</a></li>
                     </ul>
                     
@@ -427,8 +426,13 @@
             <input type="text" class="form-control" id="recipient-name">
           </div>
           <div class="form-group">
-               <label for="name" class="control-label">Your name</label>
-          <input type="text" class="form-control" id="name">
+               <label for="topic" class="control-label">Catergory</label>
+            <select id="topic">
+                <option>Sales</option>
+                <option>Technical support</option>
+                <option>General enquiry</option>
+                
+            </select>
               
           </div>
           <div class="form-group">
@@ -436,7 +440,6 @@
             <label for="message-text" class="control-label">Your message</label>
             <textarea class="form-control" id="message-text"></textarea>
           </div>
-          <div class="g-recaptcha" data-sitekey="6LejXxwTAAAAAIFqGYn6BOgVLY6SSGhlhqMD-qak"></div>
         </form>
       </div>
       <div class="modal-footer">
