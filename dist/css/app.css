@@ -451,13 +451,13 @@ background-color: white;
 .inner-expanded-hdr h1 {
      font-family: 'Open Sans';
     font-weight: 100;
-    color:dimgray;
-    font-size:20px;
+    color:#111;
+    font-size:21px;
 }
 .inner-expanded-hdr h2 {
- color:dimgray;
+ color:#222;
     font-weight:100;
-    font-size:14px;
+    font-size:15px;
      font-family:'Open Sans';
 }
 .btn {
