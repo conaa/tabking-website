@@ -112,7 +112,7 @@ z-index:999999;
     border-radius: 2px;
 }
 .popup {
-    background:#e67e22!important;
+    background:#2980b9!important;
    
     border-radius: 2px!important;
      z-index: 9999!important;
@@ -120,12 +120,12 @@ z-index:999999;
 .popup li {
     
      z-index: 9999!important;
-    background:#e67e22;
-    border-bottom:1px #c66d1e solid;
+    background:#2980b9;
+    border-bottom:1px #2980b9 solid;
         padding: 10px 0;
 }
 .popup li:hover{
-    background:#d35400;
+    background:#3498db;
     
 }
 .popup li a {
@@ -136,7 +136,7 @@ z-index:999999;
 
 }
 .popup li a:hover {
-    background:#d35400!important;
+    background:#3498db!important;
 }
 .popup li:last-child {
     border-bottom:none;
