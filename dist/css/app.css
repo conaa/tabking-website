@@ -157,6 +157,16 @@ z-index:999999;
         display:none;
     }
 }
+@media only screen and (max-width:1024px) { 
+
+    .tking-nav-items {
+        display:none;
+    }
+     .nav .mobile-nav{
+       display: block!important;
+    }
+    
+}
 @media only screen and (min-width:991px){
     .nav .mobile-nav {
         display:none;
@@ -775,6 +785,7 @@ text-align:center;
 
 /*MARKETING POINTS (3 points) */
 @media only screen and (max-width:991px) { 
+    
 	.mkt {
         max-width: 100%;
        
@@ -862,6 +873,19 @@ display:block;
     
    .nav-img-logo {
     margin-top:1.5em!important;
+	height:26px!important;
+    width:92px!important;
+       opacity:1!important;
+}
+}
+@media only screen and (max-width:1024px) { 
+	.mkt {
+        max-width: 100%;
+        margin: 4em auto;
+    }
+    
+   .nav-img-logo {
+    margin-top:1.8em!important;
 	height:26px!important;
     width:92px!important;
        opacity:1!important;
