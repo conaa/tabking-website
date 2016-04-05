@@ -227,14 +227,21 @@ z-index:999999;
 
 }
 @media only screen and (max-width:600px){
+    #tk-pro-cont {
+	padding-bottom:7em;
+}
+    .inner-expanded-hdr {
+	position: relative;
+        top:0em!important;
+}
     .marketing-pts {
-        height:1200px!important;
+        
     }
 
 }
 @media only screen and (max-width:300px){
     .marketing-pts {
-        height:1200px!important;
+   
     }
 
 }
@@ -850,7 +857,7 @@ display:block;
 @media only screen and (max-width:768px) { 
 	.mkt {
         max-width: 100%;
-        margin: 10em auto;
+        margin: 12em auto;
     }
     
    .nav-img-logo {
