@@ -813,7 +813,9 @@ text-align:center;
 .diagram-image {
     max-width: 100%;
 }
-
+.diagram-imagew {
+    max-width: 100%;
+}
 /*RESPONSIVE QUERIES*/
 
 /*MARKETING POINTS (3 points) */
