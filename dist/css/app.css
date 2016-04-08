@@ -792,7 +792,9 @@ max-width:100%;
     
 }
 
-
+#email {
+    cursor: pointer;
+}
 .outer-columns-container i{
 	display:block!important;
    
@@ -814,6 +816,9 @@ max-width:100%;
 text-align:center;
    margin-top:5em;
     
+}
+.modal-body h5 {
+    color:#333;
 }
 .diagram-content p{
     text-align: center;
